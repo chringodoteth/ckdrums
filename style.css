@@ -20,9 +20,9 @@ html, body {
     font-family: 'Switzer-Variable';
     font-weight: 700;
     font-style: normal;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     background-color: #141414;
     color: #e7e7e7;
 }
