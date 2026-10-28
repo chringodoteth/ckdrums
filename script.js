@@ -16,15 +16,17 @@ const isMobileTablet = () => {
     return window.innerWidth <= 1024;
 };
 
+// Nine stacked covers: each step is 100 / (9 - 1) = 12.5%.
 const bgPositions = {
     p1: "0 0",
-    p2: "0 14.285%",
-    p3: "0 28.571%",
-    p4: "0 42.855%",
-    p5: "0 57.14%",
-    p6: "0 71.425%",
-    p7: "0 85.71%",
-    p8: "0 100%"
+    p2: "0 12.5%",
+    p3: "0 25%",
+    p4: "0 37.5%",
+    p5: "0 50%",
+    p6: "0 62.5%",
+    p7: "0 75%",
+    p8: "0 87.5%",
+    p9: "0 100%"
 };
 
 const moveStuff = (e) => {
